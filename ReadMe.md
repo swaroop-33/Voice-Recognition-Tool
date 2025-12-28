@@ -18,3 +18,10 @@ A real-time, privacy-focused Voice Recognition tool built using Python and Strea
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+
+
+## Deployment Note
+
+This application is deployed on Streamlit Cloud for demonstration purposes.
+Due to platform limitations, microphone access is restricted in the cloud environment.
+Full voice recognition functionality works as intended when the application is run locally.

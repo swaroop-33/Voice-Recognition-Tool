@@ -25,3 +25,7 @@ streamlit run app.py
 This application is deployed on Streamlit Cloud for demonstration purposes.
 Due to platform limitations, microphone access is restricted in the cloud environment.
 Full voice recognition functionality works as intended when the application is run locally.
+
+
+## 🚀 Live Demo
+https://voice-recognition-tool-3awxqk6kuscc7x8pa3d2i8.streamlit.app/

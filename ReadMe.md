@@ -2,9 +2,12 @@
 
 A real-time, privacy-focused Voice Recognition tool built using Python and Streamlit.
 
+## 🚀 Live Demo
+https://voice-recognition-tool-3awxqk6kuscc7x8pa3d2i8.streamlit.app/
+
 ## Features
 - Live voice recognition
-- No data or audio storage
+- No audio or text storage
 - Clean and modern interface
 - Real-time processing
 
@@ -12,20 +15,9 @@ A real-time, privacy-focused Voice Recognition tool built using Python and Strea
 - Python
 - Streamlit
 - SpeechRecognition
-- PyAudio
+- PyAudio (local execution only)
 
 ## Run Locally
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
-
-
-## Deployment Note
-
-This application is deployed on Streamlit Cloud for demonstration purposes.
-Due to platform limitations, microphone access is restricted in the cloud environment.
-Full voice recognition functionality works as intended when the application is run locally.
-
-
-## 🚀 Live Demo
-https://voice-recognition-tool-3awxqk6kuscc7x8pa3d2i8.streamlit.app/

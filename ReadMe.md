@@ -1,18 +1,20 @@
-# Voice Recognition Tool
+# 🎙️ Voice Recognition Tool
 
-This application listens to voice input and recognizes predefined spoken commands.
+A real-time, privacy-focused Voice Recognition tool built using Python and Streamlit.
 
 ## Features
-- Real-time microphone input
-- Command-based voice recognition
-- No transcription storage
-- Lightweight and interactive UI
+- Live voice recognition
+- No data or audio storage
+- Clean and modern interface
+- Real-time processing
 
-## Run Instructions
-1. Install dependencies
-   pip install -r requirements.txt
+## Tech Stack
+- Python
+- Streamlit
+- SpeechRecognition
+- PyAudio
 
-2. Run the app
-   streamlit run app.py
-
-3. Click "Start Listening" and speak a command
+## Run Locally
+```bash
+pip install -r requirements.txt
+streamlit run app.py
